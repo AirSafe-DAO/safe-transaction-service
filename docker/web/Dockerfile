@@ -9,6 +9,7 @@ ENV PYTHONUNBUFFERED=1
 ENV ETH_HASH_BACKEND=pysha3
 
 COPY requirements.txt ./
+COPY safe_eth_py-6.0.0b37-py3-none-any.whl ./
 RUN set -ex \
 	&& buildDeps=" \
 		build-essential \

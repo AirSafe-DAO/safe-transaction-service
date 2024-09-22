@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -euo pipefail
+sleep 60
 
 echo "==> $(date +%H:%M:%S) ==> Collecting statics... "
 DOCKER_SHARED_DIR=/nginx

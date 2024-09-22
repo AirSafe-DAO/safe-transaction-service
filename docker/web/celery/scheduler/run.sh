@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -euo pipefail
+sleep 60
 
 # DEBUG set in .env
 if [ ${DEBUG:-0} = 1 ]; then

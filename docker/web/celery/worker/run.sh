@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -euo pipefail
+sleep 60
 
 TASK_CONCURRENCY=${CELERYD_CONCURRENCY:-15000}
 
